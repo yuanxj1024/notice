@@ -1,14 +1,4 @@
-@import "variable";
-
-@media (min--moz-device-pixel-ratio: 1.5),
-(-webkit-min-device-pixel-ratio: 1.5),
-(min-device-pixel-ratio: 1.5),
-(min-resolution: 144dpi),
-(min-resolution: 1.5dppx) {
-
-}
-
-//
+//the background layer
 .notify-over-layer {
   margin: 0;
   padding: 0;

@@ -1,8 +1,6 @@
 /**
- *
- * Created by niksun on 15/4/14.
+ * Create by Aaron Yuan on 8/28/2015
  */
-/// <reference path="plugins.ts" />
 var missfresh;
 (function (missfresh) {
     'use strict';
@@ -90,13 +88,13 @@ var missfresh;
                 case 'center':
                 default:
                     point.top = height / 2 - 15;
-                    //point.left = width/2;
                     break;
             }
             return point;
         };
         return Toast;
     })();
-    missfresh.pluginManager.register('window.plugins.toast', new Toast());
+    window.plugins = window.plugins || {};
+    window.plugins.totas = new Toast();
 })(missfresh || (missfresh = {}));
 //# sourceMappingURL=toast.js.map
