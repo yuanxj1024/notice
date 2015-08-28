@@ -80,7 +80,7 @@ var missfresh;
             var height = window.innerHeight, point = { top: -1, left: -1 }, width = window.innerWidth;
             switch (pos) {
                 case 'top':
-                    point.top = 0;
+                    point.top = 10;
                     break;
                 case 'bottom':
                     point.top = height - 30;
@@ -95,6 +95,6 @@ var missfresh;
         return Toast;
     })();
     window.plugins = window.plugins || {};
-    window.plugins.totas = new Toast();
+    window.plugins.toast = new Toast();
 })(missfresh || (missfresh = {}));
 //# sourceMappingURL=toast.js.map

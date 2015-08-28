@@ -101,7 +101,7 @@ module missfresh {
 
             switch (pos) {
                 case 'top':
-                    point.top = 0;
+                    point.top = 10;
                     break;
                 case 'bottom':
                     point.top = height- 30;
@@ -116,5 +116,5 @@ module missfresh {
     }
 
     window.plugins = window.plugins || {};
-    window.plugins.totas = new Toast();
+    window.plugins.toast = new Toast();
 }
